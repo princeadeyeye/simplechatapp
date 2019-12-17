@@ -1,0 +1,20 @@
+.Tab-buttons {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 2em 2em 0 2em;
+	border: 2px solid white;
+	padding: 3px;
+
+}
+
+.Tab {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 2em 2em 0 2em;
+	border: 2px solid white;
+	padding: 3px;
+
+
+}
