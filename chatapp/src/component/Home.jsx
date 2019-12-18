@@ -16,6 +16,7 @@ class Home extends Component {
 			    	openThread ={this.props.openThread}
 			    	/>
 			    <ChatDisplay 
+			    			tabs={this.props.tabs}
 			    			activeThread={this.props.activeThread}
 							addMessage ={this.props.addMessage}
 							deleteMessage ={this.props.deleteMessage}

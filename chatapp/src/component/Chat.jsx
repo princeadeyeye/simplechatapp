@@ -6,6 +6,7 @@ import ChatView from './ChatView'
 const Chat = (props) => (
     <div>
         <ChatView
+        	tabs={props.tabs}
             messages={props.thread.messages}
             onClick={props.onMessageClick}
              onSubmit={props.onMessageSubmit}

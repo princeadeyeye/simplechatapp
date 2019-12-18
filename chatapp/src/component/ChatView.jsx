@@ -1,6 +1,6 @@
 import React from 'react';
 import ChatInput from './ChatInput'
-
+import Moment from 'react-moment';
     
 
     const imgSrc_1 = `https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg`
@@ -10,6 +10,33 @@ import ChatInput from './ChatInput'
 const ChatView = (props) => (
                 <div class="col-md-8 col-xl-12 chat">
                     <div class="card">
+                    <div class="card-header msg_head">
+                        { props.tabs.map((tab, index) => (
+                             <div class="d-flex bd-highlight"
+                                key={index}
+                                >
+                                 <div class="img_cont">
+                                    <img src= {tab.active? imgSrc_1: imgSrc_2} class="rounded-circle user_img" />
+                                    <span class="online_icon"></span>
+                                </div>
+                                <div class="user_info">
+                                    <span>Chat with {tab.title}</span>
+                                </div>
+                                <div class="video_cam">
+                                    <span><i class="fas fa-video"></i></span>
+                                    <span><i class="fas fa-phone"></i></span>
+                                </div>
+                            
+                            <div class="action_menu">
+                                
+                            </div>
+                        </div>
+                            ))
+                        }     
+                           
+                               
+                           
+                        </div>
                         <div class="card-body msg_card_body">
                             {
                                 props.messages.map((m, index) => (
@@ -23,7 +50,8 @@ const ChatView = (props) => (
                                          </div>
                                          <div class="msg_cotainer">
                                             {m.text}
-                                            <span class="msg_time">@{m.timestamp}</span>
+                                            <span class="msg_time">
+                                             <Moment date={m.timestamp} /></span>
                                         </div>                                        
                                     </div>
 

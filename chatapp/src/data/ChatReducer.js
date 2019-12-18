@@ -73,7 +73,7 @@ function messagesReducer(state=[], action) {
 		case ActionTypes.ADD_MESSAGE: {
 		const newMessage = {
 			text: action.payload.text,
-			timestamp: Date.now(),
+			timestamp: new Date('1976-04-19T12:59-0500'),
 			id: uuid.v4(),
 		};
 			return state.concat(newMessage);
