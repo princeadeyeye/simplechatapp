@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/simplechatapp/static/css/main.485eb24e.chunk.css",
-    "main.js": "/simplechatapp/static/js/main.96dfa5a0.chunk.js",
-    "main.js.map": "/simplechatapp/static/js/main.96dfa5a0.chunk.js.map",
+    "main.css": "/simplechatapp/static/css/main.02ad642f.chunk.css",
+    "main.js": "/simplechatapp/static/js/main.7dd20469.chunk.js",
+    "main.js.map": "/simplechatapp/static/js/main.7dd20469.chunk.js.map",
     "runtime-main.js": "/simplechatapp/static/js/runtime-main.31d61d42.js",
     "runtime-main.js.map": "/simplechatapp/static/js/runtime-main.31d61d42.js.map",
     "static/js/2.d525b038.chunk.js": "/simplechatapp/static/js/2.d525b038.chunk.js",
     "static/js/2.d525b038.chunk.js.map": "/simplechatapp/static/js/2.d525b038.chunk.js.map",
     "index.html": "/simplechatapp/index.html",
-    "precache-manifest.f57464d22ad9587890ac3cd440ef2fc4.js": "/simplechatapp/precache-manifest.f57464d22ad9587890ac3cd440ef2fc4.js",
+    "precache-manifest.41fdb15ecb3475bdae18a09532f518d0.js": "/simplechatapp/precache-manifest.41fdb15ecb3475bdae18a09532f518d0.js",
     "service-worker.js": "/simplechatapp/service-worker.js",
-    "static/css/main.485eb24e.chunk.css.map": "/simplechatapp/static/css/main.485eb24e.chunk.css.map",
+    "static/css/main.02ad642f.chunk.css.map": "/simplechatapp/static/css/main.02ad642f.chunk.css.map",
     "static/js/2.d525b038.chunk.js.LICENSE": "/simplechatapp/static/js/2.d525b038.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.31d61d42.js",
     "static/js/2.d525b038.chunk.js",
-    "static/css/main.485eb24e.chunk.css",
-    "static/js/main.96dfa5a0.chunk.js"
+    "static/css/main.02ad642f.chunk.css",
+    "static/js/main.7dd20469.chunk.js"
   ]
 }
