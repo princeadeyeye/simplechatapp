@@ -11,16 +11,13 @@ const ChatView = (props) => (
                 <div class="col-md-8 col-xl-12 chat">
                     <div class="card">
                     <div class="card-header msg_head">
-                        { props.tabs.map((tab, index) => (
-                             <div class="d-flex bd-highlight"
-                                key={index}
-                                >
+                             <div class="d-flex bd-highlight">
                                  <div class="img_cont">
-                                    <img src= {tab.active? imgSrc_1: imgSrc_2} class="rounded-circle user_img" />
+                                    <img src= {imgSrc_1} class="rounded-circle user_img" />
                                     <span class="online_icon"></span>
                                 </div>
                                 <div class="user_info">
-                                    <span>Chat with {tab.title}</span>
+                                    <span>Chat with {props.threadId}</span>
                                 </div>
                                 <div class="video_cam">
                                     <span><i class="fas fa-video"></i></span>
@@ -30,11 +27,7 @@ const ChatView = (props) => (
                             <div class="action_menu">
                                 
                             </div>
-                        </div>
-                            ))
-                        }     
-                           
-                               
+                        </div>  
                            
                         </div>
                         <div class="card-body msg_card_body">

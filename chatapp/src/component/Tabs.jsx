@@ -6,7 +6,7 @@ import React from 'react';
 const Tabs = (props) => (
                 <div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
                     <div class="card-header">
-                     <p> Users </p>
+                     <h3> Users </h3>
                     </div>
                     <div class="card-body contacts_body">
                         <ui class="contacts">
@@ -19,7 +19,7 @@ const Tabs = (props) => (
                                         >
                                            <div class="d-flex bd-highlight">
                                                 <div class="img_cont">
-                                                    <img src={ tab.active ? imgSrc_1: imgSrc_2} class= "rounded-circle user_img" />
+                                                    <img src={ tab.active ? imgSrc_1: imgSrc_1} class= "rounded-circle user_img" />
                                                     <span class="online_icon"></span>
                                                 </div>
                                                 <div class="user_info">
@@ -33,7 +33,7 @@ const Tabs = (props) => (
                             }
                         </ui>
                     </div>
-                    <div class="card-footer">Designed By MO</div>
+                    <h5 class="card-footer">Designed By MO</h5>
                 </div></div>
     
 );
